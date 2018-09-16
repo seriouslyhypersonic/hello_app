@@ -3,7 +3,7 @@
 #include "student.hpp"
 #include "classroom.hpp"
 
-int main(int argc, char* argv[])
+int main(int argc, char* const argv[])
 {
     std::cout << "Hello, world!\n";
 
