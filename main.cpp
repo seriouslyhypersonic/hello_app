@@ -10,7 +10,7 @@ int main(int argc, char* argv[])
     // Let's invite someone to the party!
     Student john("John");
 
-    Classroom mathClass(&john);
+    Classroom mathClass("Maths I", &john);
 
     Student anna("Anna");
     
