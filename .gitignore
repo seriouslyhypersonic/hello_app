@@ -1,4 +1,5 @@
 uninteresting.log
 build/
+cmake-build-debug/
 .*
 !.gitignore
