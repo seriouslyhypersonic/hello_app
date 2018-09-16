@@ -1,3 +1,6 @@
+#ifndef STUDENT_HPP
+#define STUDENT_HPP
+
 #include <string>
 #include <iostream>
 
@@ -21,4 +24,6 @@ public:
     {
         return name_.c_str();
     }
-}
+};
+
+#endif //STUDENT_HPP

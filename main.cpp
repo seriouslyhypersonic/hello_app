@@ -1,6 +1,7 @@
 #include <iostream>
 
 #include "student.hpp"
+#include "classroom.hpp"
 
 int main(int argc, char* argv[])
 {
@@ -8,4 +9,10 @@ int main(int argc, char* argv[])
 
     // Let's invite someone to the party!
     Student john("John");
+
+    Classroom mathClass(&john);
+
+    Student anna("Anna");
+    
+    mathClass.add(&anna);
 }
