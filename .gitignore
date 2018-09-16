@@ -1,3 +1,4 @@
 uninteresting.log
 build/
-.vscode/
+.*
+!.gitignore
