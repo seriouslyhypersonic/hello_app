@@ -29,6 +29,15 @@ public:
             std::cout << "Added " << p_student->name() << " to " << className_ << '\n';
         }
     }
+
+    friend std::ostream& operator<<(std::ostream &out, const Classroom &classroom)
+    {
+        out << classroom.className_<< '\n';
+        for (const auto &p_student : classroom.students_) {
+            out << "\t- " << p_student->name() << '\n';
+        }
+        return out;
+    }
 };
 
 #endif //CLASSROOM_HPP

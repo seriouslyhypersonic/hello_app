@@ -15,4 +15,6 @@ int main(int argc, char* argv[])
     Student anna("Anna");
     
     mathClass.add(&anna);
+
+    std::cout << mathClass << '\n';
 }
